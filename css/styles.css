@@ -39,6 +39,8 @@ ol {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /**
@@ -224,6 +226,24 @@ img {
 }
 
 /* Section three */
+
+.section-three {
+  padding-bottom: 120px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.con-section-three {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.section-three-list {
+  flex-direction: row;
+  display: flex;
+  gap: 24px;
+  padding-left: 0;
+}
 .section-three-title {
   font-size: 36px;
   line-height: 1.11;
@@ -232,6 +252,11 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   font-weight: 700;
+  margin-bottom: 72px;
+}
+
+.section-three-images {
+  width: calc((100% - 48px) / 3);
 }
 
 /* Section-four */
