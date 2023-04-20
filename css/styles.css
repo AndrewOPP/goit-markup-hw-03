@@ -1,3 +1,9 @@
+/**
+  |============================
+  | GLOBAL CSS RULES
+  |============================
+*/
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -15,6 +21,36 @@ body {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+/**
+  |============================
+  | Page CSS
+  |============================
+*/
+.container {
+  /* width: 1158px; */
+}
+
+.container.cont-header {
+  flex-direction: row;
+  display: flex;
+}
 /* Header */
 
 /* logo */
@@ -27,6 +63,14 @@ body {
   color: #4d5ae5;
   font-weight: 800;
   font-family: "Raleway", sans-serif;
+}
+
+.header-logo-position {
+  padding: 24px 0 24px 156px;
+}
+
+.nav-header {
+  display: flex;
 }
 
 /* studio-logo */
@@ -54,9 +98,23 @@ body {
   color: #404bbf;
 }
 
+.list.navigation {
+  display: flex;
+  flex-direction: row;
+  padding: 24px 0px 24px 76px;
+  gap: 40px;
+}
+
 /* Additional information */
 .address-info {
   font-style: normal;
+}
+
+.list.address {
+  display: flex;
+  flex-direction: row;
+  padding: 24px 156px 24px 332px;
+  gap: 40px;
 }
 
 .address-inf {
