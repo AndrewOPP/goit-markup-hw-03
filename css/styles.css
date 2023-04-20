@@ -37,6 +37,9 @@ ol {
   margin-bottom: 0;
   margin-left: 0;
 }
+img {
+  display: block;
+}
 
 /**
   |============================
@@ -44,7 +47,9 @@ ol {
   |============================
 */
 .container {
-  /* width: 1158px; */
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container.cont-header {
@@ -52,6 +57,10 @@ ol {
   display: flex;
 }
 /* Header */
+
+.page-header {
+  border-bottom: 1px #e7e9fc solid;
+}
 
 /* logo */
 .header-logo {
@@ -65,12 +74,13 @@ ol {
   font-family: "Raleway", sans-serif;
 }
 
-.header-logo-position {
-  padding: 24px 0 24px 156px;
-}
-
 .nav-header {
   display: flex;
+  align-items: center;
+}
+
+.header-logo.link {
+  margin-right: 76px;
 }
 
 /* studio-logo */
@@ -92,6 +102,9 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.navigation-words.link {
+  padding: 24px 0;
+}
 
 .navigation-words:hover,
 .navigation-words:focus {
@@ -101,7 +114,6 @@ ol {
 .list.navigation {
   display: flex;
   flex-direction: row;
-  padding: 24px 0px 24px 76px;
   gap: 40px;
 }
 
