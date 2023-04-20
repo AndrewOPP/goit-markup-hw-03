@@ -114,6 +114,7 @@ img {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  padding-left: 0;
 }
 
 /* Additional information */
@@ -125,7 +126,7 @@ img {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  padding-left: 292px;
+  padding-left: 332px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -191,12 +192,28 @@ img {
 }
 
 /* Section two */
+
+.section-two {
+  padding: 120px 0;
+}
+
+.section-two-list {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  padding-left: 0;
+}
 .section-two-titles {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.section-two-list-descriptions {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-two-text {
