@@ -349,6 +349,7 @@ img {
 .buttons-portfolio:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .portfolio-page-titles {
@@ -360,9 +361,42 @@ img {
   color: #2e2f42;
 }
 
+.portfolio-section {
+  padding: 96px 0 120px;
+}
+
 .portfolio-page-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio-list-buttons {
+  display: flex;
+  margin-bottom: 72px;
+  justify-content: center;
+  gap: 24px;
+}
+.portfolio-list-img {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.buttons-portfolio {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.portfolio-a-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio-page-titles {
+  margin-bottom: 8px;
+}
+.portfolio-li {
+  width: calc((100% - 48px) / 3);
 }
